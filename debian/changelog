@@ -1,0 +1,21 @@
+golang-github-jouyouyun-hardware (0.1.8-1) unstable; urgency=medium
+
+  * New upstream version 0.1.8
+  * add network test.
+  * add cpu test.
+  * add missing depends.
+
+ -- Clay Stan <claystan97@gmail.com>  Thu, 12 Aug 2021 03:35:41 +0800
+
+golang-github-jouyouyun-hardware (0.1.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Source-only upload.
+
+ -- Boyuan Yang <byang@debian.org>  Fri, 05 Feb 2021 14:48:24 -0500
+
+golang-github-jouyouyun-hardware (0.1.6-1) unstable; urgency=medium
+
+  * Initial release (Closes: #968766)
+
+ -- Clay Stan <claystan97@gmail.com>  Wed, 03 Feb 2021 10:46:46 +0800

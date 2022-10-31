@@ -1,0 +1,33 @@
+Source: golang-github-jouyouyun-hardware
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders:
+ Clay Stan <claystan97@gmail.com>,
+ Arun Kumar Pariyar <openarungeek@gmail.com>,
+ Boyuan Yang <byang@debian.org>,
+Section: golang
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-golang,
+ golang-any,
+ golang-github-smartystreets-goconvey-dev,
+ pciutils,
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/claystan/golang-github-jouyouyun-hardware
+Vcs-Git: https://salsa.debian.org/claystan/golang-github-jouyouyun-hardware.git
+Homepage: https://github.com/jouyouyun/hardware
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/jouyouyun/hardware
+
+Package: golang-github-jouyouyun-hardware-dev
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ usbutils,
+Description: Golang Library for Get hardware info
+ Supported the following hardware info:
+ cpu,memory,dmi,disk,graphic,network,sound,peripherals,
+ backlight,bluetooth,camera,battery.
+ Contains every device name, vendor, product etc.
